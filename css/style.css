@@ -54,3 +54,14 @@ font-weight:500;
 .center{
     text-align: center;
 }
+
+.img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.card-deck{
+    margin: 5%;
+}
