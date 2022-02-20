@@ -1,0 +1,22 @@
+.list-group-item{
+    height: fit-content;
+}
+h1{
+    font-family: 'Source Serif Pro', serif;
+    padding: 10 0 10 0;
+}
+h2{
+    font-family: 'Source Serif Pro', serif;  
+}
+h3{
+    font-family: 'Source Serif Pro', serif;
+}
+.jumbotron{
+    background-color: #fafafa;
+}
+.body{
+    background-color: #fafafa;
+}
+p{
+    font-family: 'Inter', sans-serif
+}
