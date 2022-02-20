@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Source+Serif+Pro:wght@900&display=swap" rel="stylesheet">
 </head>  
 </head>
-  <body>
+  <body style="background-color:#fafafa">
      <nav class="navbar navbar-expand-sm navbar-light bg-light">
          <a class="navbar-brand" href="#">Kyle Andrus</a>
          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -41,17 +42,20 @@
      </nav>
      <div class="jumbotron jumbotron-fluid firstJumbotron">
          <div class="container">
-             <h1 class="display-3">WePick</h1>
-             <p class="lead">Helping Answer The Greatest
-                Questions of our Generation</p>
+            <div class="row align-items-center">
+                <div class="col">
+                    <p class="jumboMiniText">UX/UI Case Study</p>
+                    <h1 class="display-3">WePick</h1>
+                    <p class="lead">Helping Answer The Greatest
+                        Questions of our Generation</p>
+                </div>
+                <div class="col">
+                 <img src="/Images/iPhone 13.png" class="img-fluid iphoneMockup ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+                </div>
+              </div>
          </div>
      </div>
      <div class="card">
-         <img class="card-img-top" data-src="holder.js/100x180/?text=Image cap" alt="Card image cap">
-         <div class="card-body">
-             <h4 class="card-title">Title</h4>
-             <p class="card-text">Text</p>
-         </div>
          <ul class="list-group list-group-flush">
              <li class="list-group-item">
                  <h2>About the Project</h2>
@@ -95,23 +99,24 @@
             </li>
         </ul>
      </div>
-     <h2>Key Metrics</h2>
-     <div class="card-deck">
-         <div class="card">
+     <div class="stats">
+     <h2 class="indent">Key Metrics</h2>
+     <div class="card-deck statCard">
+         <div class="card statCard">
              <img class="card-img-top" src="holder.js/100x180/" alt="">
              <div class="card-body">
                  <h4 class="card-title">53%</h4>
                  <p class="card-text">The percentage of millenials that go out to eat at least once a week. This is 10% higher than any other generation.</p>
              </div>
          </div>
-         <div class="card">
+         <div class="card statCard">
              <img class="card-img-top" src="holder.js/100x180/" alt="">
              <div class="card-body">
                  <h4 class="card-title">75%</h4>
                  <p class="card-text">The percentage of 18-44 year-olds that have a current Netflix subscription. Compared to 44% of those aged 65 and above.</p>
              </div>
          </div>
-         <div class="card">
+         <div class="card statCard">
             <img class="card-img-top" src="holder.js/100x180/" alt="">
             <div class="card-body">
                 <h4 class="card-title">74%</h4>
@@ -119,6 +124,7 @@
             </div>
         </div>
      </div>
+    </div>
      <div class="card">
         <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -127,35 +133,26 @@
             </li>
         </ul>
      </div>
-     <div class="card">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <h2>Empathize</h2>
-                <p class="cardText">
-                    First, we had to think about who would be using this app. With our two main activities, going out to eat and streaming a movie or TV show online, we started with what demographics most often do that activity. 
-                </p>
-            </li>
-        </ul>
-     </div>
+     
      <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-3">Fluid jumbo heading</h1>
-            <p class="lead">Jumbo helper text</p>
+            <h2>Problem Statement</h1>
+            <p class="lead">How might we help couples or groups of people that have a hard time making decisions on what movie to watch, where to go to eat, etc?</p>
         </div>
      </div>
 <div class="card-deck">
     <div class="card">
         <img class="card-img-top" src="holder.js/100x180/" alt="">
         <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h2 class="center">Mid-Fidelity</h2>
+            <img src="/Images/Swiping Screen.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="holder.js/100x180/" alt="">
         <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h2 class="center">High-Fidelity</h2>
+            <img src="/Images/Card Swiping stream.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
     </div>
 </div>
@@ -163,19 +160,30 @@
     <div class="card">
         <img class="card-img-top" src="holder.js/100x180/" alt="">
         <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <img src="/Images/lofisignup.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
     </div>
     <div class="card">
         <img class="card-img-top" src="holder.js/100x180/" alt="">
         <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <img src="/Images/hifisignup.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
         </div>
     </div>
 </div>
-b4col
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="holder.js/100x180/" alt="">
+        <div class="card-body">
+            <img src="/Images/lofiroom.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="holder.js/100x180/" alt="">
+        <div class="card-body">
+            <img src="/Images/hifiroom.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+        </div>
+    </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
